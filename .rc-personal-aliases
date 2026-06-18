@@ -1,0 +1,8 @@
+alias cd-diplomas='cd /home/walter/repo/Diplomas/diplomas/'
+alias cd-diplomas_migracion='cd /home/walter/repo/migracion_php8/diplomas/'
+alias cd-testing_diaguita='cd /home/walter/repo/gitea/diaguitaTests/'
+alias cd-eyf_gerencial='cd /home/walter/repo/gitea/eyf_gerencial/'
+alias cd-scripts='cd /home/walter/repo/github/dots/scripts/'
+
+alias cd-eyf_proveedores='cd /home/walter/repo/gitea/eyf_proveedores_web/sitio'
+alias levantar-docker='sudo systemctl start docker.service'

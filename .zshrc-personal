@@ -1,0 +1,7 @@
+alias awesome="$EDITOR ~/.config/awesome/rc.lua"
+
+export PATH=$HOME/repo/gitea/scripts:$HOME/repo/gitea/scripts/agustin:$PATH
+
+[[ -f ~/.rc-personal-aliases ]] && . ~/.rc-personal-aliases
+
+export $(envsubst < .env)

@@ -1,0 +1,6 @@
+alias pacmanf="sudo pacman --overwrite '*' -Syu"
+PATH=$PATH:~/repo/gitea/scripts:~/repo/gitea/scripts/agustin
+
+[[ -f ~/.rc-personal-aliases ]] && . ~/.rc-personal-aliases
+
+export $(envsubst < .env)
